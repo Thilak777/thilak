@@ -1,9 +1,6 @@
-b=int(input('Enter the value:'))
-if b>0:
-      print "positive"
-elif b<0:
-      print "Negative"
-elif b==0:
-      print "Zero"
+
+b=int(input("enter a number\n"))
+if(b%2==0):
+	print('even')
 else:
-      print "Invalid"
+	print("odd")
